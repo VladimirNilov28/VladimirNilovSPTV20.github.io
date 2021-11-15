@@ -11,6 +11,7 @@ body {
 p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
+    color: #ff6600;
 }
 
 input[type="text"], input[type="password"], input[type="search"] {
@@ -121,8 +122,8 @@ ul.headerMenubar li {
 
 ul.menu {
     /* float: right; */
+    
 }
-
 ul.menu li {
 }
 
@@ -137,14 +138,14 @@ ul.menu li a {
 
 ul.menu li.selected a {
     color: #ff9a57;
-
+    
 }
 
 ul.menu li a:hover {
     color: #ff9a57;
     
 }
- .greetings{
+.greetings{
     padding-top: 10px;
 }
 
