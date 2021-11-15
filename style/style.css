@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background: url(/img/contentbg.jpg) center;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+    color: #5d5d5d;
+    width: 80%;
+    padding: 5px;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    margin-top: 7px;
+    color: #fff;
+}
+
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #ffff;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #5d5d5d;
+    height: 140px;
+    width: 100;
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    border-radius: 0px;
+    padding: 0px 10px
+}
+.headerMenu{
+    margin:-23px 0px 0px 920px;
+    color: #ffff;
+}
+.headerMenubar li a{
+    color: rgb(167, 167, 167);
+    font: normal 100% 'trebuchet ms', sans-serif;
+    font-size: large;
+}
+.headerMenubar li a:hover{
+    color: #ffff;
+}
+ul.headerMenubar li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.main, .logo, .menubar, .site_content, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 880px;
+    margin-left: 160px;
+}
+
+.logo h1, .logo h2 {
+    font: normal 300% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #ff6600;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+.trilers, .greetings, .menubar{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 180px;
+    width: 500px;
+}
+
+
+ul.menu {
+    /* float: right; */
+}
+
+ul.menu li {
+}
+
+ul.menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    /* float: left; */
+    padding-bottom: 30px;
+}
+
+ul.menu li.selected a {
+    color: #ff9a57;
+
+}
+
+ul.menu li a:hover {
+    color: #ff9a57;
+    
+}
+ .greetings{
+    padding-top: 10px;
+}
+
+
+hr {
+    color: orangered;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    max-width: 500px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.site_content {
+    width: 880px;
+    overflow: hidden;
+    margin-top: 30px;
+    /* background-color: white; */
+    margin-left: auto;
+    margin-right: auto;
+    background: url(/img/content.jpg) center/cover no-repeat;
+}
+
+.sidebar_container {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #000000, #ff6600);
+    overflow-x: hidden;
+    padding-top: 1px;
+    
+}
+
+.sidebar {
+    float: left;
+    width: auto;
+    height: 150px;
+    padding: 3px;
+    margin: 0 0 0 0;
+}
+
+.btn {
+    padding: 6px;
+    background-color:rgb(75, 75, 75);
+    cursor: pointer;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.sidebar h2 {
+    color: #ffc9a4;
+    padding: 0 100px 0 0;
+}
+
+.lables_passreg_text {
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin: 2%;
+}
+
+.sidebar ul{
+    margin: 0;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+.content {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: #5d5d5d;
+    color: #d4d4d4;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+}
+
+footer a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 0 0 10px 0;
+    
+}
+.trilers{
+    /* -webkit-box-align: center; */
+    /* -webkit-box-pack: center; */
+    /* align-items: center; */
+    /* display: -webkit-box; */
+    /* display: flex; */
+    height: 100%;
+    /* justify-content: center; */
+    left: 0;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+}
